@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="header">
+        <div class="toper">
+          <h1>Social Media Dasboard</h1>
+          <p style="color: hsl(228, 12%, 44%) ">Total Followers: 23,004</p>
+        </div>
+        <!-- <div class="aside">
+          <p>Dark Mode</p>
+          <div class="toggle_wrap"><div class="toggle"></div></div>
+        </div> -->
+        <div class="color-toggle">
+          <p class="toggle">Dark Mode</p>
+          <label class="switch">
+            <input id="theme-toggle-button" class="dark-mode" type="checkbox" unchecked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="Dashboard-toprow">
+        <div class="toprowitem">
+          <div class="profile">
+            <img src="./images/icon-facebook.svg" />
+            <p class="fb-username">@nathanf</p>
+          </div>
+          <div>
+            <p class="stats">1987</p>
+            <p class="Followers">Followers</p>
+          </div>
+
+          <div class="up">
+            <img src="./images/icon-up.svg" alt="" />
+            <p>12 Today</p>
+          </div>
+        </div>
+        <div class="toprowitem">
+          <div class="profile">
+            <img src="./images/icon-facebook.svg" />
+            <p class="X-username">@nathanf</p>
+          </div>
+          <div>
+            <p class="stats">1044</p>
+            <p class="Followers">Followers</p>
+          </div>
+
+          <div class="up">
+            <img src="./images/icon-up.svg" alt="" />
+            <p>90today</p>
+          </div>
+        </div>
+        <div class="toprowitem" style=" border-top: 3px solid hsl(356, 69%, 56%);">
+          <div class="profile">
+            <img src="./images/icon-instagram.svg" />
+            <p class="insta-username">@nathanf</p>
+          </div>
+          <div>
+            <p class="stats" >11k</p>
+            <p class="Followers">Followers</p>
+          </div>
+
+          <div class="up">
+            <img src="./images/icon-up.svg" alt="" />
+            <p>1000 Today</p>
+          </div>
+        </div>
+        <div class="toprowitem" style =" border-top: solid 3px rgb(199, 15, 15);">
+          <div class="profile">
+            <img src="./images/icon-youtube.svg" alt="yb icon" />
+            <p class="yb-username">@nathanf</p>
+          </div>
+          <div>
+            <p class="stats">8239</p>
+            <p class="Followers">Followers</p>
+          </div>
+
+          <div class="down">
+            <img src="./images/icon-down.svg" alt="" />
+            <p>144 Today</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Overview">
+        <div class="Over-view header"><h2>Overview - Today</h2></div>
+        <div class="overview-content">
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Pageviews</p>
+              <img class="item2" src="./images/icon-facebook.svg" />
+       
+            </div>
+            <div class="itemfooter">
+              <p class="item3">87</p>
+
+              <div class="up">
+                <img src="./images/icon-up.svg" alt="" />
+                <p class="item4">3%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Likes</p>
+              <img class="item2" src="./images/icon-facebook.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">52</p>
+
+              <div class="down">
+                <img src="./images/icon-down.svg" alt="" />
+                <p class="item4">2%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Likes</p>
+              <img class="item2" src="./images/icon-instagram.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">5462</p>
+
+              <div class="up">
+                <img src="./images/icon-up.svg" alt="" />
+                <p class="item4">2257%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Profile Views</p>
+              <img class="item2" src="./images/icon-instagram.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">52k</p>
+
+              <div class="up">
+                <img src="./images/icon-up.svg" alt="" />
+                <p class="item4">1375%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Retweets</p>
+              <img class="item2" src="./images/icon-twitter.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">117</p>
+
+              <div class="up">
+                <img src="./images/icon-up.svg" alt="" />
+                <p class="item4">303%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Likes</p>
+              <img class="item2" src="./images/icon-twitter.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">507</p>
+
+              <div class="up">
+                <img src="./images/icon-up.svg" alt="" />
+                <p class="item4">553%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">Likes</p>
+              <img class="item2" src="./images/icon-youtube.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">107</p>
+
+              <div class="down">
+                <img src="./images/icon-down.svg" alt="" />
+                <p class="item4">19%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overviewitem">
+            <div class="itemheader">
+              <p class="item1">TotalViews</p>
+              <img class="item2" src="./images/icon-youtube.svg" />
+            </div>
+            <div class="itemfooter">
+              <p class="item3">1407</p>
+
+              <div class="down">
+                <img src="./images/icon-down.svg" alt="" />
+                <p class="item4">12%</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+  Social Media Dashboard Total Followers: 23,004 Dark Mode @nathanf 1987
+  Followers 12 Today @nathanf 1044 Followers 99 Today @realnathanf 11k
+  Followers 1099 Today Nathan F. 8239 Subscribers 144 Today Overview - Today
+  Page Views 87 3% Likes 52 2% Likes 5462 2257% Profile Views 52k 1375%
+  Retweets 117 303% Likes 507 553% Likes 107 19% Total Views 1407 12%
+-->
+
+</body>
+</html>
